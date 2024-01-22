@@ -9,11 +9,11 @@ number = int(input("Enter a number: "))
 print(number)
 
 # reverse the number
-reversed_number = 0
 while number > 0:
-    remainder = number % 10
-    reversed_number = (reversed_number * 10) + remainder
+    # extract the last digit
+    reversed_number = number % 10
+    # remove the last digit
     number = number // 10
 
-print(reversed_number)
-# print the reversed number with spaces between each digit
+    # print the reversed number with spaces between each digit
+    print(reversed_number, end=" ")
