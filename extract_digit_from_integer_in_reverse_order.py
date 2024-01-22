@@ -6,7 +6,7 @@
 number = int(input("Enter a number: "))
 
 # print the entered number
-print(number)
+print("You entered", number)
 
 # reverse the number
 while number > 0:
