@@ -3,9 +3,10 @@
 # pseudocode
 
 # ask user to enter a number
+number = int(input("Enter a number: "))
 
 # print the entered number
-
+print(number)
 # reverse the number
 
 # print the reversed number with spaces between each digit
